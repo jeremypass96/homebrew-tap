@@ -1,4 +1,4 @@
-cask "jeremypass96-betterbird" do
+cask "betterbird" do
   arch intel: "x86_64"
   os linux: "linux"
 
@@ -127,8 +127,5 @@ cask "jeremypass96-betterbird" do
     end
   end
 
-  zap trash: [
-    "~/.cache/thunderbird",
-    ]
-
+  zap trash: "~/.cache/thunderbird"
 end
