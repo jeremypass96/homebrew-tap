@@ -127,7 +127,7 @@ cask "betterbird" do
     end
   end
 
-  zap trash: [
+  zap delete: [
     "~/.cache/thunderbird",
     "~/.thunderbird"
   ]
