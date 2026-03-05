@@ -57,7 +57,7 @@ cask "betterbird" do
     "hunspell",
   ]
 
-  binary "betterbird/betterbird"
+  binary "betterbird/betterbird-bin"
 
   postflight do
     apps_dir  = "#{Dir.home}/.local/share/applications"
