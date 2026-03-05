@@ -120,10 +120,10 @@ cask "betterbird" do
 
   uninstall_postflight do
     # delete desktop launcher
-    FileUtils.rm("#{Dir.home}/.local/share/applications/betterbird.desktop")
+    FileUtils.rm_f("#{Dir.home}/.local/share/applications/betterbird.desktop")
     # delete icons
     %w[256 128 64 48 32 24 22 16].each do |sz|
-    FileUtils.rm_r("#{Dir.home}/.local/share/icons/hicolor/#{sz}x#{sz}/apps/betterbird.png")
+    FileUtils.rm_rf("#{Dir.home}/.local/share/icons/hicolor/#{sz}x#{sz}/apps/betterbird.png")
     end
   end
 
