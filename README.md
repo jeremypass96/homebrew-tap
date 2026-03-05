@@ -1,16 +1,16 @@
-# Jeremypass96 Tap
+# betterbird tap (Linux only!)
 
-## How do I install these formulae?
+## How do I install this cask?
 
-`brew install jeremypass96/tap/<formula>`
+`brew install jeremypass96/tap/betterbird
 
-Or `brew tap jeremypass96/tap` and then `brew install <formula>`.
+Or `brew tap jeremypass96/tap` and then `brew install betterbird`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "jeremypass96/tap"
-brew "<formula>"
+brew "betterbird"
 ```
 
 ## Documentation
