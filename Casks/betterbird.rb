@@ -57,7 +57,7 @@ cask "betterbird" do
     "hunspell",
   ]
 
-  binary "betterbird/betterbird-bin"
+  binary "betterbird/betterbird"
 
   postflight do
     apps_dir  = "#{Dir.home}/.local/share/applications"
@@ -94,7 +94,7 @@ cask "betterbird" do
 
     File.write(desktop, <<~EOS)
       [Desktop Entry]
-      Exec=#{HOMEBREW_PREFIX}/bin/betterbird-bin %u
+      Exec=#{HOMEBREW_PREFIX}/bin/betterbird %u
       Terminal=false
       Type=Application
       Icon=betterbird
@@ -110,11 +110,11 @@ cask "betterbird" do
 
       [Desktop Action ComposeMessage]
       Name=Write new message
-      Exec=betterbird-bin -compose
+      Exec=betterbird -compose
 
       [Desktop Action OpenAddressBook]
       Name=Open address book
-      Exec=betterbird-bin -addressbook
+      Exec=betterbird -addressbook
     EOS
   end
 
