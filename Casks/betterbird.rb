@@ -5,39 +5,39 @@ cask "betterbird" do
   version "140.9.0esr-bb20"
 
   language "en", default: true do
-    sha256 "48be40d313b3b60b82e8059d66d55a7a45dc7fa2c67376018a2a5b1aa15be61a"
+    sha256 "62d040cb5bf3e7d35ece4d26700f9324f3e17367648421e5e177c7d19a393024"
     "en-US"
   end
   language "de" do
-    sha256 "a97024f142d37c29300f9b8d3decba57cb0410474e5afc924c164470afb35d0a"
+    sha256 "b19faf762b6efe471dfb8ae8791503d78af1cc2fe423912b0d8ccd63ba96dafc"
     "de"
   end
   language "nl" do
-    sha256 "3e3c268c929a800f51de22c4e4543f80a1e3982b6d6acbe30a2b02c655bca03c"
+    sha256 "264d2d98f14d1923858dbe6169ed35b9ff0de32bbb3b5155b0910d320e9b2063"
     "nl"
   end
   language "fr" do
-    sha256 "1e1a30ddf5dccc141424b9244e9370bfd6e8c44c46996dadc18af929be0a8081"
+    sha256 "8c340caeb1fd336b6ee10a048032855b472f456eaf7adde6e74e57fb781b70fe"
     "fr"
   end
   language "it" do
-    sha256 "81b8c1e214aea7449daf552ba0a4e91cd110ecfde949291bfe13716c921b9611"
+    sha256 "3bd985796485145ccb704a258f22f5cafe130fdbce25cabbfc9587e12f4cfbf0"
     "it"
   end
   language "ja" do
-    sha256 "e0a7f8c4c1fbacc06fcc3bb19e710df0b1387a2ef4c930f96a39c6c59ef7122a"
+    sha256 "aa11400f78b0ad219dc33996325a764c814871934472cbb8b94723f32722e88a"
     "ja"
   end
   language "es" do
-    sha256 "a7381e9776a22153ac6016bc4ab2dce768e13197b7c9086150713cb3d021555c"
+    sha256 "e700d9852c9e41a4e50af436b0e6ffd0ec88b55187a3e6fe3f5655d557f45f7e"
     "es-ES"
   end
   language "pt" do
-    sha256 "9f50115ec298ab6b2c0ff6e6e513b69c39bc6a8e3068f1a572894b9ab8769da0"
+    sha256 "8aefb9ef7fc8bb75cea76a073ed2982f477b1f9c6e91e00fd3fc9fcfacf21c2c"
     "pt-BR"
   end
   language "ru" do
-    sha256 "72ea4f747bf0ceb43b2deb43211417a874bb84a29db2abfd8ed43a5d47710f52"
+    sha256 "6d3da54701b9c28fe8f41fdffb5bde6c2daab7563ec9c9af1f12ccf0294c14b6"
     "ru"
   end
 
