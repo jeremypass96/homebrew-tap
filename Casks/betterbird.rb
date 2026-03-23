@@ -2,7 +2,7 @@ cask "betterbird" do
   arch intel: "x86_64"
   os linux: "linux"
 
-  version "140.8.0esr-bb19"
+  version "140.9.0esr-bb20"
 
   language "en", default: true do
     sha256 "48be40d313b3b60b82e8059d66d55a7a45dc7fa2c67376018a2a5b1aa15be61a"
