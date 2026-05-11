@@ -12,7 +12,7 @@ cask "betterbird" do
 
   livecheck do
     url "https://www.betterbird.eu/downloads/"
-    regex(/Current version:\s*Betterbird\s+(\d+(?:\.\d+)+\.\d+esr-bb\d+)/i)
+    regex(/Current version:\s*Betterbird\s+([0-9.]+(?:esr)?-bb\d+)/i)
   end
 
   auto_updates true
