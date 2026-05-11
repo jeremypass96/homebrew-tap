@@ -2,8 +2,8 @@ cask "betterbird" do
   arch intel: "x86_64"
   os linux: "linux"
 
-  #version :latest
-  sha256 :no_check
+  version: latest
+  sha256: no_check
     
   url "https://www.betterbird.eu/downloads/LinuxArchive/betterbird-#{version}.en-US.linux-x86_64.tar.xz"
   name "Betterbird"
