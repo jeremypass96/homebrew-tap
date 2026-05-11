@@ -2,46 +2,10 @@ cask "betterbird" do
   arch intel: "x86_64"
   os linux: "linux"
 
-  version "140.9.0esr-bb20"
-
-  language "en", default: true do
-    sha256 "62d040cb5bf3e7d35ece4d26700f9324f3e17367648421e5e177c7d19a393024"
-    "en-US"
-  end
-  language "de" do
-    sha256 "b19faf762b6efe471dfb8ae8791503d78af1cc2fe423912b0d8ccd63ba96dafc"
-    "de"
-  end
-  language "nl" do
-    sha256 "264d2d98f14d1923858dbe6169ed35b9ff0de32bbb3b5155b0910d320e9b2063"
-    "nl"
-  end
-  language "fr" do
-    sha256 "8c340caeb1fd336b6ee10a048032855b472f456eaf7adde6e74e57fb781b70fe"
-    "fr"
-  end
-  language "it" do
-    sha256 "3bd985796485145ccb704a258f22f5cafe130fdbce25cabbfc9587e12f4cfbf0"
-    "it"
-  end
-  language "ja" do
-    sha256 "aa11400f78b0ad219dc33996325a764c814871934472cbb8b94723f32722e88a"
-    "ja"
-  end
-  language "es" do
-    sha256 "e700d9852c9e41a4e50af436b0e6ffd0ec88b55187a3e6fe3f5655d557f45f7e"
-    "es-ES"
-  end
-  language "pt" do
-    sha256 "8aefb9ef7fc8bb75cea76a073ed2982f477b1f9c6e91e00fd3fc9fcfacf21c2c"
-    "pt-BR"
-  end
-  language "ru" do
-    sha256 "6d3da54701b9c28fe8f41fdffb5bde6c2daab7563ec9c9af1f12ccf0294c14b6"
-    "ru"
-  end
-
-  url "https://www.betterbird.eu/downloads/LinuxArchive/betterbird-#{version}.#{language}.linux-x86_64.tar.xz"
+  version "140.10.1esr-bb22"
+  sha256 "66247166a6b22f2e7346b001576975b2c20788494e1cf084af43f9438840ff7e"
+    
+  url "https://www.betterbird.eu/downloads/LinuxArchive/betterbird-#{version}.en-US.linux-x86_64.tar.xz"
   name "Betterbird"
   desc "Fine-tuned version of Mozilla Thunderbird with additional features"
   homepage "https://betterbird.eu/"
