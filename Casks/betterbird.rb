@@ -2,7 +2,7 @@ cask "betterbird" do
   arch intel: "x86_64"
   os linux: "linux"
 
-  version :livecheck
+  version "140.10.1esr-bb22"
   sha256 :no_check
     
   url "https://www.betterbird.eu/downloads/LinuxArchive/betterbird-#{version}.en-US.linux-x86_64.tar.xz"
